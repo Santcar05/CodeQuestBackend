@@ -5,12 +5,11 @@ import lombok.*;
 @Getter @Setter
 @Builder
 @NoArgsConstructor @AllArgsConstructor
-public class ModuloDTO {
+public class CursoRequestDTO {
 
-    private Long id;
-    private Long cursoId;
     private String titulo;
     private String descripcion;
-    private Integer orden;
+    private String nivel;
+    private String imagenPortadaUrl;
+    private String roadmap;
 }
-
